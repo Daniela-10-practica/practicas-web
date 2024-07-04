@@ -1,0 +1,304 @@
+/*DOCUMENTO*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poopins:wght@400;500;600;700;800&display=swap')
+/*
+font-family:'Bebas Neue', Sans-serif;
+font-family:'Poopins', Sans-serif;
+*/
+
+*{
+    margin: 0%;
+    padding: 15px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Bebas neue', sans-serif;
+}
+
+body{
+    font-family: 'poopins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    font-size:larger;
+}
+
+
+.container logo img{
+    justify-content: left;
+}
+
+
+
+.menu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(180, 164, 182);
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+     float:left
+}
+
+.menu .navbar ul li a{
+    font-size: 18PX;
+    padding: 20px;
+    color:black;
+    display: block;
+    font-weight: 600;
+
+}
+
+.menu .navbar ul li a:hover{
+    color: purple;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+    
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.header{ 
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+
+.header .inicio .img{
+    justify-content: center;
+    justify-content: center;
+}
+
+.header-content{
+    display: flex;
+    flex: 1;
+
+}
+
+.header-txt{
+    flex-basis: 50%;
+   
+}
+
+.header-txt span{
+    font-size: 30px;
+    font-weight: 600;
+    color: #868B9E;
+}
+
+
+
+header .mision{
+    text-align: center;
+    text-align: justify;
+    
+}
+
+
+
+.contactanos{
+    padding: 15px 2px;
+    background-color: rgb(180, 164, 182);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align: center;
+}
+
+
+
+
+.datos{
+    justify-content: center;
+    flex-direction:column ;
+}
+
+
+
+
+
+
+
+
+
+
+.extenciones{
+    background-color: rgb(180, 164, 182);
+    padding: 30px 0;
+    flex-direction: row;
+
+}
+
+.extenciones .eximg{
+   
+
+}
+
+
+
+
+.imp{
+    padding: 20px 0;
+    text-align: right;
+    justify-content: space-between;
+    
+}
+
+.imgr{
+    text-align: center;
+}
+
+
+
+
+
+
+.serv{
+    padding: 15px 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 50px 0;
+    background-color: rgb(8, 0, 8);
+}
+
+.footer h2{
+    text-align: center;
+}
+
+.footer-content{
+    display:flex ;
+    justify-content: space-between;
+    
+}
+
+.footer ul li a:hover{
+    color: purple;
+}
+
+.link h3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media(max-whidth:991px){
+    .menu{
+        padding: 20px;
+    }
+
+    .menu-label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #49BADA;
+        display: none;
+    }
+
+    .menu  .navbar ul li a:hover{
+        color: #101610;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .header{
+        min-height: 0vh;
+        padding: 100px 30px 30px 30px;
+    }
+
+    .header-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-txt h1{
+        font-size: 70px;
+    }
+
+   
+
+    .butons a{
+        margin: 0 0 10px 0;
+    }
+
+    
+
+    .footer{
+        padding: 30px;
+        
+
+    }
+
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+
+}
