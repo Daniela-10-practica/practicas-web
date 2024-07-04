@@ -1,0 +1,47 @@
+/*documento*/
+ *{margin: 0px;
+    padding: 0px;
+ }
+
+body{
+    background-color: cadetblue;
+ }
+
+h1{font-family: "roboto",sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+h3{
+font-family: "roboto",sans-serif;
+font-weight: 300;
+}
+
+h2{
+    font-family: "roboto",sans-serif;
+    font-weight: 300;
+    }
+
+
+.cabecera{
+text-align: center;
+padding: 15px 0px;
+background-color: blue;
+color: bisque;
+text-shadow: 0px 0px 3px black;
+
+}    
+
+
+
+.multimedia{
+    margin: 0px auto 0px auto;
+    width: 70;
+    text-align: center;
+    display: flex;
+}
+
+section.multimedia div{width: 50; }
+
+

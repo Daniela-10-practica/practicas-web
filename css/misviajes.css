@@ -1,0 +1,45 @@
+/*documento*/
+
+header{
+    text-align: center;
+    color: ghostwhite;
+    text-shadow:0ch 3px gray;
+    margin: 20px 0px 15px 0px;
+    padding: 15px;
+    background-image:url(/imagenes/sonoraaa.jpg)  ;
+    background-size: cover ;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 90px;
+}
+ 
+
+main{
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+.img{
+    justify-content: center;
+}
+
+.ima{
+    flex-wrap: wrap;
+}
+
+
+body{
+    padding: 0px 15px 0px 15px;
+    justify-content: center;
+    background-color: rgb(178, 212, 128);
+}
+
+.naco
+
+.piti {
+    width: 70%;
+    margin: auto;
+}
+
+.tabu
